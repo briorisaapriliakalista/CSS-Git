@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0c0f14;
+  color: white;
+}
+
+/* CONTAINER */
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* NAVIGATION */
+header {
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.btn-outline {
+  border: 1px solid #555;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  padding: 60px 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 40px;
+  align-items: center;
+}
+
+.hello {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.name {
+  display: block;
+  font-size: 42px;
+  background: linear-gradient(90deg, orange, hotpink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  display: block;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.desc {
+  margin: 20px 0;
+  color: #bbb;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, orange, hotpink);
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  border: 1px solid #555;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+/* HERO IMAGE */
+.hero-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ===== TABEL ===== */
+
+.school-table,
+.likes-table {
+  width: 60%;              
+  margin: 30px auto;       
+  border-collapse: collapse;
+  background: #111722;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* Header */
+.school-table th,
+.likes-table th {
+  background: linear-gradient(90deg, #273549, #2f3e55);
+  padding: 20px 15px;      
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Isi tabel */
+.school-table td,
+.likes-table td {
+  padding: 22px 15px;      
+  text-align: center;
+  font-size: 17px;
+  color: #d1d5db;
+  border-bottom: 1px solid #1f2937;
+  transition: 0.3s ease;
+}
+
+/* Hover smooth */
+.school-table tr:hover td,
+.likes-table tr:hover td {
+  background: #1a2230;
+  color: white;
+}
+
+/* Hapus garis terakhir */
+.school-table tr:last-child td,
+.likes-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.story p {
+  color: #ccc;
+  max-width: 800px;
+}
+
+.instagram a {
+  color: hotpink;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: #0a0d12;
+  color: #666;
+}
+
+.instagram-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.instagram-link i{
+  font-size: 28px;
+  background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.instagram-link:hover{
+  transform: scale(1.05);
+}
