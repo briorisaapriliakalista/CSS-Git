@@ -73,7 +73,7 @@ nav a {
 .name {
   display: block;
   font-size: 42px;
-  background: linear-gradient(90deg, orange, hotpink);
+  background: linear-gradient(90deg, rgb(87, 47, 219), rgb(197, 18, 33));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -96,7 +96,7 @@ nav a {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, orange, hotpink);
+  background: linear-gradient(90deg, rgb(64, 33, 206), rgb(26, 36, 69));
   padding: 10px 18px;
   border-radius: 8px;
   text-decoration: none;
@@ -180,7 +180,7 @@ h2 {
 }
 
 .instagram a {
-  color: hotpink;
+  color: rgb(255, 105, 105);
   font-weight: bold;
   text-decoration: none;
 }
